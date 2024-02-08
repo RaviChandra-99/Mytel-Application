@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aa{
+            color: aliceblue;
+             background-color: rgb(32, 70, 85);   
+          }
+          .bb{
+            padding: 40px;
+           margin-left:auto;
+      margin-right: auto;
+      width: 550px;
+      margin-bottom: auto;
+      color: antiquewhite;
+      font-size: large;
+
+        }
+          a:link {
+            color: red;
+        text-decoration: none;
+        }
+        a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+        }
+        ul li{
+            list-style: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body style="background-image: url(pic6.jpeg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
+    <div class="aa">
+    <h1 style="text-align: center; padding: 15px;">WELCOME TO MYTEL</h1>
+
+    <ul>
+        <li style="margin-left: 35px;">
+            Welcome user
+        </li>
+        <li style="margin-left:35%;">
+           PayBills
+        </li>
+        <li style="margin-left: 90%;">
+            <a href="login.html" style="color: aliceblue;">LogOut</a>
+        </li>
+    </ul>
+    </div> 
+    <div class="bb">
+        <h4>
+            Enter Payment details:::
+        </h4>
+        <br>
+
+        <ul>
+            <li >
+                <label>
+                    Debit/Credit Card Number
+                </label>
+                <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                     autocomplete="cc-number" maxlength="19" 
+                placeholder="xxxx xxxx xxxx xxxx" required style="margin-left:40px;">
+
+            </li>
+            <br>
+            <br>
+            <br>
+
+            <li>
+                <label>Expiry Date</label>
+                <input type="month" style="margin-left:144px;">
+            </li>
+            <br>
+            <br>
+            <br>
+            <li>
+                <label>CVV</label>
+            <input type="number" maxlength="3" style="margin-left:194px;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="pb4.html" style="margin-left: 243px; color: rgb(16, 16, 8); background-color: rgb(241, 237, 237); padding: 15px;">Confirm</a>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li style="margin-left:40%;">
+                <a href="pb2.html" style="color: aliceblue; background-color: black; padding: 10px;">Back</a>
+
+            </li>
+            <li style="margin-left:8%;">
+                <a href="home.html" style="color: aliceblue;  background-color: black; padding: 10px;">Home</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
